@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.js": "/messenger/static/js/main.0193b38a.js",
-    "static/css/524.8612a056.chunk.css": "/messenger/static/css/524.8612a056.chunk.css",
-    "static/js/524.6bc13470.chunk.js": "/messenger/static/js/524.6bc13470.chunk.js",
-    "static/css/95.6578a5a8.chunk.css": "/messenger/static/css/95.6578a5a8.chunk.css",
-    "static/js/95.a5229f5a.chunk.js": "/messenger/static/js/95.a5229f5a.chunk.js",
-    "static/js/714.6a29eaf8.chunk.js": "/messenger/static/js/714.6a29eaf8.chunk.js",
-    "static/js/278.8bb0fc32.chunk.js": "/messenger/static/js/278.8bb0fc32.chunk.js",
+    "main.js": "/messenger/static/js/main.0a6cbfce.js",
+    "static/css/453.5988e76c.chunk.css": "/messenger/static/css/453.5988e76c.chunk.css",
+    "static/js/453.75eb9060.chunk.js": "/messenger/static/js/453.75eb9060.chunk.js",
+    "static/css/84.b6a93ead.chunk.css": "/messenger/static/css/84.b6a93ead.chunk.css",
+    "static/js/84.0fc77c5a.chunk.js": "/messenger/static/js/84.0fc77c5a.chunk.js",
+    "static/js/166.599d1934.chunk.js": "/messenger/static/js/166.599d1934.chunk.js",
     "index.html": "/messenger/index.html",
-    "main.0193b38a.js.map": "/messenger/static/js/main.0193b38a.js.map",
-    "524.8612a056.chunk.css.map": "/messenger/static/css/524.8612a056.chunk.css.map",
-    "524.6bc13470.chunk.js.map": "/messenger/static/js/524.6bc13470.chunk.js.map",
-    "95.6578a5a8.chunk.css.map": "/messenger/static/css/95.6578a5a8.chunk.css.map",
-    "95.a5229f5a.chunk.js.map": "/messenger/static/js/95.a5229f5a.chunk.js.map",
-    "714.6a29eaf8.chunk.js.map": "/messenger/static/js/714.6a29eaf8.chunk.js.map",
-    "278.8bb0fc32.chunk.js.map": "/messenger/static/js/278.8bb0fc32.chunk.js.map"
+    "main.0a6cbfce.js.map": "/messenger/static/js/main.0a6cbfce.js.map",
+    "453.5988e76c.chunk.css.map": "/messenger/static/css/453.5988e76c.chunk.css.map",
+    "453.75eb9060.chunk.js.map": "/messenger/static/js/453.75eb9060.chunk.js.map",
+    "84.b6a93ead.chunk.css.map": "/messenger/static/css/84.b6a93ead.chunk.css.map",
+    "84.0fc77c5a.chunk.js.map": "/messenger/static/js/84.0fc77c5a.chunk.js.map",
+    "166.599d1934.chunk.js.map": "/messenger/static/js/166.599d1934.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.0193b38a.js"
+    "static/js/main.0a6cbfce.js"
   ]
 }
