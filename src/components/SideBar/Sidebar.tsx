@@ -51,11 +51,11 @@ const Sidebar: FC = () => {
         <div className="container">
           <div className="sidebar">
             <SearchComponent handleOnChange={handleOnChange} />
-            {list.map(({ name, id }, index) => (
+            {list.map(({ name, id }) => (
               <AlignItemsList
                 handleDeleteClick={handleDeleteClick}
                 name={name}
-                num={index}
+                num={id}
                 key={name}
                 takeAvatar={takeAvatar}
               />
