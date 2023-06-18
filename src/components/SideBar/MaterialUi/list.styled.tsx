@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import IconButton from "@mui/material/IconButton";
 import PermContactCalendarIcon from "@mui/icons-material/PermContactCalendar";
 import { randomOnline } from "../supportTS/randomOnline";
+import PersonIcon from "@mui/icons-material/Person";
+
 export const CustomListItem = styled(ListItem)`
   background-color: #ff5722;
   color: #ffffff;
@@ -43,7 +45,7 @@ export const CustomIconButton = styled(IconButton)`
     transform: scale(1.2);
   }
 `;
-export const CustomContactsIcon = styled(PermContactCalendarIcon)`
+export const CustomContactsIcon = styled(PersonIcon)`
   fill: ${({ theme }) => randomOnline()};
   width: 15px;
   position: absolute;
