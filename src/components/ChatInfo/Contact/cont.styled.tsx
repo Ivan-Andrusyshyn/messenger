@@ -28,7 +28,7 @@ export const scaleAnimation = keyframes`
   }`;
 export const StyledChip = styled(Chip)`
   cursor: pointer;
-  background-color: #ff5252; /* Red */
+  background-color: #ff5622d8; /* Red */
   color: #ffffff;
   border-color: #4caf50;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
