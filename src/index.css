@@ -1,0 +1,16 @@
+.list_link {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.list_item {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 100%;
+  background-color: #21cc89;
+  padding: 15px;
+}

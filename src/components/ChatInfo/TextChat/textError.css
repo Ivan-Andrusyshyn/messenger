@@ -1,0 +1,22 @@
+.text-error {
+  background-color: rgba(204, 6, 6, 0.87);
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 50px;
+  width: 345px;
+
+  z-index: 111;
+  animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
