@@ -8,7 +8,7 @@ import { randomOnline } from "../supportTS/randomOnline";
 import PersonIcon from "@mui/icons-material/Person";
 
 export const CustomListItem = styled(ListItem)`
-  background-color: #ff5722;
+  background-color: #ff5622d8;
   color: #ffffff;
   margin-bottom: 10px;
   border: 1px solid #ffc107;
