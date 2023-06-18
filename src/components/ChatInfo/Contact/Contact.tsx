@@ -17,12 +17,13 @@ interface ContactProps {
 
 export const Contact: React.FC<ContactProps> = ({ contact }) => {
   const dispatch = useDispatch();
-  const { state } = useLocation();
   const avatarSrc = useSelector((state: any) => state.contacts.avatarSrc);
+  const { state } = useLocation();
+  const num = state && state.num;
+
   const avatarCheck =
-    state.num !== null
-      ? `https://picsum.photos/id/2${state.num}/200/300`
-      : avatarSrc;
+    num !== null ? `https://picsum.photos/id/2${num}/200/300` : avatarSrc;
+
   useEffect(() => {
     dispatch(takeAvatarSrc(avatarCheck));
   }, [avatarCheck, dispatch]);
