@@ -5,6 +5,8 @@
   box-sizing: border-box;
   background-color: #f0f0f0;
   padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px 0px #ff5622a1;
 }
 .main {
   z-index: 1111;

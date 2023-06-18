@@ -1,42 +1,43 @@
 import { Box, TextField, Button } from "@mui/material";
 import { styled } from "@mui/system";
 import { Send } from "@mui/icons-material";
+export const StyledButton = styled(Button)`
+  background-color: #ffffff;
+  color: #ff5622d8;
+  height: 30px;
 
-export const StyledButton = styled(Button)(({ theme }) => ({
-  backgroundColor: "#ffffff",
-  color: "#FF5722",
-  height: "30px",
-  "&:hover": {
-    backgroundColor: "#FF5722",
-    color: "#ffffff",
-  },
-  "&:active": {
-    backgroundColor: "#FF5722",
-    color: "#ffffff",
-  },
-}));
+  &:hover {
+    background-color: #ff5622d8;
+    color: #ffffff;
+  }
+
+  &:active {
+    background-color: #ff5622d8;
+    color: #ffffff;
+  }
+`;
 export const StyledTextField = styled(TextField)(({ theme }) => ({
   flex: 1,
   marginRight: theme.spacing(1),
   "& .MuiOutlinedInput-root": {
     "&:hover fieldset": {
-      borderColor: "#FF5722",
+      borderColor: "#ff5622d8",
     },
     "&.Mui-focused fieldset": {
-      borderColor: "#FF5722",
+      borderColor: "#ff5622d8",
     },
   },
   "& .MuiInputBase-input": {
     padding: "5px 8px",
   },
 }));
-export const StyledForm = styled(Box)(({ theme }) => ({
-  display: "flex",
-  alignItems: "center",
-  position: "absolute",
-  width: "340px",
-  bottom: "5px",
-  left: "10px",
-  padding: theme.spacing(1),
-  borderRadius: theme.spacing(1),
-}));
+export const StyledForm = styled(Box)`
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 340px;
+  bottom: 5px;
+  left: 10px;
+  padding: ${({ theme }) => theme.spacing(1)};
+  border-radius: ${({ theme }) => theme.spacing(1)};
+`;
