@@ -61,6 +61,7 @@ export const TextChat: FC = () => {
       <StyledForm onSubmit={handleSubmit} component={"form"}>
         <StyledTextField
           type="text"
+          autoComplete="off"
           placeholder="Enter a message"
           value={text}
           onChange={handleOnChange}
