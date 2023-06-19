@@ -49,7 +49,10 @@ li {
   bottom: 60px;
   height: 270px;
   width: 345px;
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  overflow-y: scroll;
   scrollbar-width: thin;
   border: 1px solid #ccc;
   border-radius: 5px;

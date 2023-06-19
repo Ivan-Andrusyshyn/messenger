@@ -16,6 +16,18 @@ export const TextChat: FC = () => {
   const handleOnChange = (e: ChangeEvent<HTMLInputElement>) => {
     setText(e.currentTarget.value);
   };
+  const chatContainer: HTMLElement | null = document.querySelector(".chat");
+  function scrollToBottom(): void {
+    if (chatContainer) {
+      chatContainer.scrollTop = chatContainer.scrollHeight;
+    }
+  }
+  function addNewMessage(): void {
+    scrollToBottom();
+  }
+  useEffect(() => {
+    addNewMessage();
+  }, [textArray]);
   useEffect(() => {
     if (text) {
       setErrHidden(true);
