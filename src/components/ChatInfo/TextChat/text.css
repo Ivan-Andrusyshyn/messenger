@@ -49,20 +49,18 @@ li {
   bottom: 60px;
   height: 270px;
   width: 345px;
-  display: flex;
-  align-items: end;
-  justify-content: flex-end;
-  flex-direction: column;
-  gap: 20px;
   overflow-y: auto;
-  overflow-x: hidden;
+  scrollbar-width: thin;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
   padding: 10px;
   background-color: #fff;
 }
-
+.text-wrapp-chat {
+  float: right;
+  gap: 20px;
+}
 .chat::-webkit-scrollbar {
   width: 8px;
 }
@@ -81,16 +79,19 @@ li {
   background-color: #999;
 }
 .message-wrap {
-  max-width: 340px;
+  max-width: 320px;
   width: fit-content;
   bottom: 50px;
   background-color: #fff;
-  padding: 5px;
+  padding: 5px 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   word-wrap: break-word;
   animation: messageAnimation 0.3s linear forwards;
 }
 
+.message-wrap + .message-wrap {
+  margin-top: 20px;
+}
 @keyframes messageAnimation {
   0% {
     opacity: 0;

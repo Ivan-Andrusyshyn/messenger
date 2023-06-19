@@ -36,13 +36,16 @@ export const TextChat: FC = () => {
 
   return (
     <div className="text-container">
-      <ul className="chat">
-        {textArray.map((message, index) => (
-          <li className="message-wrap" key={index}>
-            <p>{message.text}</p>
-          </li>
-        ))}
-      </ul>
+      <div className="chat">
+        <ul className="text-wrapp-chat">
+          {textArray.map((message, index) => (
+            <li className="message-wrap" key={index}>
+              <p>{message.text}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+
       <StyledForm onSubmit={handleSubmit} component={"form"}>
         <StyledTextField
           type="text"
