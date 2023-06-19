@@ -46,23 +46,49 @@ li {
 }
 .chat {
   position: absolute;
-  bottom: 50px;
-  left: 10px;
-  max-height: 300px;
+  bottom: 60px;
+  height: 270px;
   width: 345px;
   display: flex;
+  align-items: end;
+  justify-content: flex-end;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   overflow-y: auto;
   overflow-x: hidden;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  background-color: #fff;
+}
+
+.chat::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.chat::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.chat::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
 }
 .message-wrap {
-  width: 350px;
+  max-width: 340px;
+  width: fit-content;
   bottom: 50px;
   background-color: #fff;
-  padding: 10px;
+  padding: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  animation: messageAnimation 0.4s linear forwards;
+  word-wrap: break-word;
+  animation: messageAnimation 0.3s linear forwards;
 }
 
 @keyframes messageAnimation {
